@@ -6,9 +6,6 @@
 
 @section('answers')
     <div class="govuk-form-group">
-        <label class="govuk-label" for="date-of-birth">
-            What is your date of birth?
-        </label>
         <span id="date-of-birth-hint" class="govuk-hint">
             For example, 27 3 1980
         </span>

@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class DoBController extends Controller
 {
     public function index(Request $request){
-        return view('steps.AgeQuestion');
+        return view('steps.PatientDetails.AgeQuestion');
     }
 
     public function store(Request $request){
@@ -21,6 +21,33 @@ class DoBController extends Controller
         Record::where('session', $request->session()->getId())->update([
             'date_of_birth' => $dob
         ]);
-        return redirect('/symptoms');
+        return redirect('/what-is-your-phone-number');
+    }
+
+    public function PhoneNumberIndex(){
+        return view('steps.PatientDetails.PhoneNumberQuestion');
+    }
+
+    public function PhoneNumberStore(Request $request){
+        $phoneNumber = $request->input('phone-number');
+        return redirect('/what-is-your-post-code');
+    }
+
+    public function PostCodeIndex(){
+        return view('steps.PatientDetails.PostCodeQuestion');
+    }
+
+    public function PostCodeStore(Request $request){
+        $postCode = $request->input('post-code');
+        return redirect('/what-was-your-sex-at-birth');
+    }
+
+    public function SexAtBirthIndex(){
+        return view('steps.PatientDetails.SexAtBirthQuestion');
+    }
+
+    public function SexAtBirthStore(Request $request){
+        $sexAtBirth = $request->input('sex-at-birth');
+        return redirect('/have-you-already-been-tested-for-coronavirus');
     }
 }

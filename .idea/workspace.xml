@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a0fdb62-c337-4951-a06d-e093d3758f5e" name="Default Changelist" comment="" />
+    <list default="true" id="4a0fdb62-c337-4951-a06d-e093d3758f5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/ExistingTestResults/DateOfLastTest.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/ExistingTestResults/HasYourConditionWorsenedSinceYourLastTestQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/ExistingTestResults/HaveYouBeenTestedMoreThanOnce.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/ExistingTestResults/HaveYouBeenTestedQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/MedicalDependency/DoYouDependOnMedicalAssistanceQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/MedicalDependency/DoYouHaveEnoughMediciation.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/PatientDetails/PhoneNumberQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/PatientDetails/PostCodeQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/PatientDetails/SexAtBirthQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/PatientNumber/DoYouKnowYourPatientNumber.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/SelfIsolating/AreYouSelfIsolatingQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/SelfIsolating/WhereAreYouSelfIsolating.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/Work/CriticalWorkerQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/Work/DoYouWorkAwayFromHome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/Work/LastVisitToWorkQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/Work/WorkingWithRiskGroupsQuestion.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/steps/Work/WorkplacePostCodeQuestion.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DoBController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DoBController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IdentityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IdentityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UnderlyingConditionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UnderlyingConditionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dropouts/NoSymptoms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dropouts/NoSymptoms.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/steps/AgeQuestion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/steps/PatientDetails/AgeQuestion.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/steps/IdentityQuestion.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/steps/PatientNumber/IdentityQuestion.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/steps/Introduction.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/steps/Introduction.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -114,6 +145,7 @@
   </component>
   <component name="ProjectId" id="1ZCye8FnRNNMQGHsst0guA8fwFV" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/steps" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -121,6 +153,10 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/steps/PatientDetails" />
+      <recent name="$PROJECT_DIR$/resources/views/steps/PatientNumber" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/steps" />
       <recent name="$PROJECT_DIR$" />
@@ -156,10 +192,22 @@
       <option name="presentableId" value="Default" />
       <updated>1584357463059</updated>
       <workItem from="1584357465814" duration="13150000" />
+      <workItem from="1584631773071" duration="9795000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
